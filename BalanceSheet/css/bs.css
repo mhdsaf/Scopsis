@@ -1,0 +1,10 @@
+.div1{
+	margin: 0 auto; width: 30%; font-family:sans-serif;
+}
+.div2{
+	display: flex; flex-direction: column;
+}
+.c4{
+	font-weight:600; display: flex; flex-direction:row; 
+}
+body{background: url('../images/hello.jpg'); width:100%; height: 100vh;}

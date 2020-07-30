@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Employee Tasks</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="shortcut icon" type="image/icon" href="images/favicon.png">
+		<script src="js/java.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/css.css">
+		<link rel="icon" href="http://example.com/favicon.png">
+	</head>
+    <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar" style="background-color:#03194E">
+				<div class="custom-menu" >
+					<button type="button" id="sidebarCollapse" class="btn btn-primary" style="background-color:#0742A6">
+					</button>
+				</div>
+				<img src="images/white.png" style="width:100%; height:4.5%">
+				<div class="img  text-center py-4" style="background-image: url(images/new1.png);">
+					<br><br>
+				</div>
+				<ul class="list-unstyled components mb-5">
+				  <li class="active" style=" padding: 5% 5%">
+						<a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+				  </li>
+				  <li style=" padding: 5% 5%">
+						<a href="#"><i class="fa fa-money"></i> <span style="padding-left:5%">Economic</span></a>
+				  </li>
+				  <li style=" padding: 5% 5%">
+						<a href="#"><i class="fa fa-line-chart"></i> <span style="padding-left:5%">Productivity</span></a>
+				  </li>
+				  <li style=" padding: 5% 5%">
+						<a href="#"><i class="fa fa-tasks" style="font-size:19px"></i><span style="padding-left:5%"></span> Tasks</a>
+				  </li>
+				  <li style=" padding: 5% 5%">
+						<a href="#"><i class='far fa-comment-alt'></i><span style="padding-left:7%"></span> Chat</a>
+				  </li>
+				  <li style=" padding: 5% 5%">
+						<a href="#"><span class="fa fa-cog mr-3"></span> Support</a>
+				  </li>
+				  <li style=" padding: 5% 5%">
+						<a href="#"><i class="fas fa-sign-out-alt"></i><span style="padding-left:8%"></span>Sign Out</a>
+				  </li>
+				</ul>
+			</nav>
+			<!-- Page Title: Economic + Logo  -->
+			
+			<!-- Page Content  -->
+			<div id="content" class="p-4 p-md-5 pt-5 xD" style=" display: flex; flex-direction: column;">
+				<div style=" margin: 0 auto;">
+					<img src="images/new.PNG" style="width:250px; padding-top:2%"/>
+				</div>
+				<div>
+					<hr style=" border: 1px solid #5F5F5F;">
+				</div>
+				<div style="margin: 0 auto; font-family:Times New Roman">
+					<h3 style="display:inline">Add a New Task</h3>
+					<a href="addTask.html">
+						<button style="height:60px; width:60px; border:1px solid #0495B9; border-radius:50%; background-color:#0495B9">
+							<span class='glyphicon glyphicon-plus'></span>
+						</button>
+					</a>
+				</div>
+				<div>
+					<hr style=" border: 1px solid #5F5F5F;">
+				</div>
+				<div style=" display: flex; flex-direction: row;">
+					<div style="flex-grow:1;">
+						<h4 style="color: #5E5E5E">In Progess:</h4>
+						<!-- Start of first task -->
+						<div class="card">
+							<div class="card-block">
+								<div class="row align-items-center justify-content-center">
+									<div class="col-auto">
+										<img class="img-fluid rounded-circle" style="width:70px;" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="dashboard-user">
+									</div>
+									<div class="col">
+										<h5>Fatima Ali Ahmad</h5>
+										<span>Junior Software Developer</span>
+									</div>
+								</div>
+								<ul class="task-list">
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 1<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 2<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 3<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- End of first task -->
+						
+						<!-- Duplicate -->
+						<div class="card" >
+							<div class="card-block">
+								<div class="row align-items-center justify-content-center">
+									<div class="col-auto">
+										<img class="img-fluid rounded-circle" style="width:70px;" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="dashboard-user">
+									</div>
+									<div class="col">
+										<h5>Mohamed Safieddine</h5>
+										<span>Junior Software Developer</span>
+									</div>
+									
+								</div>
+								<ul class="task-list">
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 1<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 2<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 3<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- End duplicate -->
+					</div>
+					&nbsp &nbsp &nbsp <div style=" border: 1px solid #03377C; border-style: dotted"> </div>&nbsp &nbsp &nbsp
+					<div style="flex-grow:1;">
+						<h4 style="color: #5E5E5E">Pending for Approval:</h4>
+						<!-- Start of first task -->
+						<div class="card" >
+							<div class="card-block">
+								<div class="row align-items-center justify-content-center">
+									<div class="col-auto">
+										<img class="img-fluid rounded-circle" style="width:70px;" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="dashboard-user">
+									</div>
+									<div class="col">
+										<h5>Omar Malka</h5>
+										<span>Junior Software Developer</span>
+									</div>
+									<button class="btn btn-info" >Accept Task</button>
+									
+									<button class="btn btn-danger" style="margin-left:40px">Reject Task</button>
+								</div>
+								
+								<ul class="task-list">
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 1<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 2<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 3<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- End of first task -->
+						
+						<!-- Duplicate -->
+						
+						<div class="card" >
+							<div class="card-block">
+								<div class="row align-items-center justify-content-center">
+									<div class="col-auto">
+										<img class="img-fluid rounded-circle" style="width:70px;" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="dashboard-user">
+									</div>
+									<div class="col">
+										<h5>Hussein Bayram</h5>
+										<span>Junior Software Developer</span>
+									</div>
+									<button class="btn btn-info">Accept Task</button>
+									
+									<button class="btn btn-danger" style="margin-left:40px">Reject Task</button>
+								</div>
+								<ul class="task-list">
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 1<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 2<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+									<li>
+										<i class="task-icon bg-c-green" style="background-color:#03194E"></i>
+										<h6>Task Title 3<span class="float-right text-muted">Due Date:</span></h6>
+										<p class="text-muted">Task Description</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<!-- End duplicate -->
+					</div>
+				</div>
+			</div>
+			<!-- My Profile --> <!-- My name is Mohamed Safieddine, and this is ECE 430! -->
+			<!-- CALENDER!!  -->
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+    </body>
+</html>
